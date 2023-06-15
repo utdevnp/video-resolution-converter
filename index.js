@@ -1,3 +1,4 @@
+const bodyParser = require('body-parser');
 const express = require('express');
 const ffmpegStatic = require('ffmpeg-static');
 const ffmpeg = require('fluent-ffmpeg');
@@ -7,6 +8,7 @@ const path = require('path');
 const app = express();
 
 const fileUpload = multer({ dest: 'uploads/' });
+app.use(bodyParser.urlencoded({ extended: true }));
 
 // Tell fluent-ffmpeg where it can find FFmpeg
 ffmpeg.setFfmpegPath(ffmpegStatic);
