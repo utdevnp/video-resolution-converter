@@ -35,6 +35,7 @@ app.post("/", fileUpload.single("video"), (req, res) => {
 
   // convert video resolution
   ffmpeg().input(videoPath).outputOptions('-vf scale=320:240').saveToFile(outputPath).on("end", () => {
+    console.log("Processing done .........");
     res.download(outputPath, outputFileName);
   }).on("error", (err) => {
     res.status(500).send("Error in video conversion: " + err.message);
