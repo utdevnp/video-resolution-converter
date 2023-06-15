@@ -5,8 +5,9 @@
 <ul>
   <li> Clone the project 'git clone https://github.com/utdevnp/video-resolution-converter.git' </li>
   <li> Make sure you have node install in PC </li>
-  <li> run command 'npm install' </li>
-  <li> run command 'npm run start' </li>
+  <li> Run command 'npm install' </li>
+  <li> Make 'uploads' and 'output' directories </li>
+  <li> Run command 'npm run start' </li>
   <li> Go to the http://localhost:3000 </li>
 </ul>
 
