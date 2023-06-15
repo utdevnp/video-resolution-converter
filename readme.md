@@ -10,4 +10,4 @@
   <li> Go to the localhost:3000 </li>
 </ul>
 
-<h5> Enjoy </h5>
+<h5> NOTE : Node version v16.16.0, Npm version v8.11.0 ::  Enjoy </h5>
