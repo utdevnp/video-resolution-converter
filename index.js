@@ -14,7 +14,8 @@ ffmpeg.setFfmpegPath(ffmpegStatic);
 // set view engine 
 app.set('views', path.join(__dirname));
 app.set('view engine', 'hbs');
-app.get('/', (res) => {
+
+app.get('/', function (req, res) {
   res.render('Home');
 });
 
