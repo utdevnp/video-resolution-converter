@@ -4,8 +4,9 @@
 
 <ul>
   <li> Clone the project </li>
-  <li> run npm install </li>
+  <li> run command 'npm install' </li>
+  <li> run command 'npm run start' </li>
   <li> Go to the localhost:3000 </li>
 </ul>
 
-<h6> Enjoy </h6>
+<h5> Enjoy </h5>
